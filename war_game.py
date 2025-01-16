@@ -18,8 +18,8 @@ class Card:
     def __init__(self, the_face, the_suit):
         global face, suit
         if (the_face in face and the_suit in suit):
-            self.face = the_face # Adding a comment to this method(Change 1)
-            self.suit = the_suit
+          self.face = the_face # Adding a comment to this method(Change 1)
+          self.suit = the_suit # Adding a comment to this method(Change 2)
         else:
             #print("Illegal card value, creating a 2 of Clubs")
             self.face = -1
